@@ -1,0 +1,116 @@
+body {
+  background: rgb(172, 172, 172);
+  text-align: center;
+  padding: 0 20vw;
+}
+h1 {
+  text-align: left;
+  font-size: 4rem;
+  font-family: Helvetica, sans-serif;
+}
+h2 {
+  text-align: left;
+  font-family: Helvetica, sans-serif;
+  color: rgb(104, 104, 104);
+}
+div.image {
+  background: rgb(238, 238, 238);
+  width: 100%;
+  border-radius: 2rem;
+  margin-bottom: 2rem;
+}
+div iframe {
+  width: 90%;
+  height: 600px;
+  padding-top: 20px;
+  border: none;
+}
+div h2 {
+  margin-bottom: 1rem;
+  padding-left: 2rem;
+  color: rgb(75, 75, 75);
+}
+div p {
+  margin-top: 1rem;
+  padding: 1rem 3rem;
+  font-size: 1.3rem;
+  font-family: Helvetica, sans-serif;
+  color: rgb(104, 104, 104);
+}
+img {
+  width: 100%;
+  border-radius: 2rem 2rem 0 0;
+}
+
+.title_like {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.title_like h2 {
+  display: inline-block;
+}
+
+.like {
+  border-radius: 0;
+  border: none;
+  height: 2rem;
+  margin-right: 3rem;
+  margin-top: 1.3rem;
+  width: 2.5rem;
+}
+
+.like:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    padding: 0 10px;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+.loading {
+  display: flex;
+  width: 50px;
+  margin: 0 auto;
+  justify-content: space-around;
+  flex: 0 0 0;
+}
+
+.loading p {
+  display: inline-block;
+  border-radius: 50%;
+  margin: 0 1rem 1rem;
+  padding: 15px;
+  background: rgb(75, 75, 75);
+}
+
+.loading p.l {
+  animation: twinkling 1s linear 0 infinite normal forwards;
+}
+
+.loading p.m {
+  animation: twinkling 1s linear 0.2s infinite normal forwards;
+}
+
+.loading p.r {
+  animation: twinkling 1s linear 0.4s infinite normal forwards;
+}
+
+@keyframes twinkling {
+  0% {
+    background: rgb(75, 75, 75);
+  }
+  100% {
+    background: rgb(145, 145, 145);
+  }
+}
+
+.remove {
+  display: none;
+}
