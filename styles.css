@@ -1,5 +1,5 @@
 body {
-  background: rgb(172, 172, 172);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(81,9,121,1) 63%, rgba(155,166,241,1) 100%);
   text-align: center;
   padding: 0 20vw;
 }
