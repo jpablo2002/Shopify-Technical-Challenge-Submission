@@ -1,6 +1,5 @@
 body {
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(81,9,121,1) 63%, rgba(155,166,241,1) 100%);
-  text-align: center;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(81,9,121,1) 50%, rgba(0,0,0,1) 100%);
   padding: 0 20vw;
 }
 h1 {
