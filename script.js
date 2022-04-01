@@ -1,4 +1,6 @@
-"use strict";
+("use strict");
+
+api_key = 'LgMSmaBZAb4Ob7M36pdmsrt9PlYXzbx1dUHbsnck'
 
 const formatDate = function (date) {
   return date.toISOString().split("T")[0];
@@ -9,7 +11,7 @@ let from_date = new Date();
 from_date.setDate(from_date.getDate() - 10);
 
 $.getJSON(
-  `https://api.nasa.gov/planetary/apod?api_key=LgMSmaBZAb4Ob7M36pdmsrt9PlYXzbx1dUHbsnck&start_date=${formatDate(
+  `https://api.nasa.gov/planetary/apod?api_key=${api_key}&start_date=${formatDate(
     from_date
   )}&end_date=${formatDate(to_date)}`,
   function (data) {

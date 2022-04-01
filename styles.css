@@ -1,6 +1,6 @@
 body {
   background: linear-gradient(90deg, rgba(132,70,145,1) 0%, rgba(109,14,161,1) 50%, rgba(132,70,145,1) 100%);
-  padding: 0 20vw;
+  padding: 0 30vw;
 }
 h1 {
   text-align: left;
@@ -10,19 +10,22 @@ h1 {
 h2 {
   text-align: left;
   font-family: Helvetica, sans-serif;
-  color: rgb(104, 104, 104);
+  color: rgb(38, 38, 38);
 }
 div.image {
   background: rgb(238, 238, 238);
   width: 100%;
   border-radius: 2rem;
   margin-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 div iframe {
-  width: 90%;
+  width: 100%;
   height: 600px;
-  padding-top: 20px;
   border: none;
+  border-radius: 2rem;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
 div h2 {
   margin-bottom: 1rem;
@@ -38,7 +41,7 @@ div p {
 }
 img {
   width: 100%;
-  height: 60vw;
+  height: 40vw;
   border-radius: 2rem 2rem 0 0;
 }
 
@@ -113,4 +116,21 @@ img {
 
 .remove {
   display: none;
+}
+
+@media screen and (max-width: 1535px) {
+  div p {
+    padding: 0rem 3rem;
+    font-size: 1rem;
+    font-family: Helvetica, sans-serif;
+    color: rgb(104, 104, 104);
+  }
+  img {
+    width: 100%;
+    height: 80vw;
+    border-radius: 2rem 2rem 0 0;
+  }
+  div.title_like {
+    font-size: 1rem;
+  }
 }
