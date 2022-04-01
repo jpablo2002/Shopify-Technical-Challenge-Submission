@@ -1,16 +1,17 @@
 body {
-  background: linear-gradient(90deg, rgba(132,70,145,1) 0%, rgba(109,14,161,1) 50%, rgba(132,70,145,1) 100%);
+  background: linear-gradient(90deg, rgb(4, 0, 22) 0%, rgb(146, 142, 163) 50%, rgb(8, 1, 32) 100%);
   padding: 0 30vw;
 }
 h1 {
   text-align: left;
   font-size: 4rem;
   font-family: Helvetica, sans-serif;
+  color: rgb(220, 226, 240);
 }
 h2 {
   text-align: left;
   font-family: Helvetica, sans-serif;
-  color: rgb(38, 38, 38);
+  color: rgb(159, 159, 159);
 }
 div.image {
   background: rgb(238, 238, 238);
