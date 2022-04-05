@@ -5,12 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shopify Challenge</title>
-    <script src="jquery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
+
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
       <h1 class="title">Spacestagram</h1>
       <h2 class="subtitle">Brought to you by NASA's Image API</h2>
+      <span id='variableJSON' hidden>
+        <%= JSON.stringify(key); %>
+    </span>
   </body>
-  <script src="script.js"></script>
-</html>
+  <script src="/script.js" type="module"></script>
+</html> 
