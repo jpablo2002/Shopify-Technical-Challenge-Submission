@@ -1,4 +1,4 @@
-("use strict");
+"use strict";
 
 let to_date = new Date();
 let from_date = new Date();
