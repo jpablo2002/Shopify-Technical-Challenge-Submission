@@ -38,6 +38,14 @@ const formatDate = function (date) {
   return date.toISOString().split("T")[0];
 };
 
+function topFunction() {
+  document.documentElement.scrollTop = 0; 
+}
+
+document.querySelector('h1.title').addEventListener('click', topFunction)
+
+document.getElementById
+
 fetch('/new-imgs')
     .then(response => response.json())
     .then(json => {
