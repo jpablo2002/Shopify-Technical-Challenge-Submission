@@ -1,9 +1,5 @@
 "use strict";
 
-let to_date = new Date();
-let from_date = new Date();
-from_date.setDate(from_date.getDate() - 10);
-
 const generateImages = function (data) {
   for (let i = data.length - 2; i >= 0; i--) {
     $("body").append(`<div class="image"></div>`);

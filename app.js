@@ -21,6 +21,9 @@ app.listen(port);
 app.use(express.static('public'));
 
 app.get('/', (req, res) => {
+	to_date = new Date();
+	from_date = new Date();
+	from_date.setDate(from_date.getDate() - 10);
 	res.render('index')
 });
 
