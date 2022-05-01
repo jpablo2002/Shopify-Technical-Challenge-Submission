@@ -1,3 +1,3 @@
-# Shopify-Technical-Challenge-Submission
+Spacestagram
 
 Visit the hosted website at https://spacesta-gram.herokuapp.com/!
